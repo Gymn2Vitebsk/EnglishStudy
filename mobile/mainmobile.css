@@ -1,0 +1,19 @@
+body {
+    background: #edeae5; /*463940*/
+    margin: 0;
+}
+
+header p {
+    cursor: default;
+    color: #800000;
+    text-align: center;
+    margin:0;
+    font-size:7vh;
+    font-weight: bold;
+    top: -5vh;
+}
+
+main img {
+width:100%;
+height: 40vh;
+}

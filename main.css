@@ -1,0 +1,113 @@
+body {
+    background: #edeae5; /*463940*/
+    margin: 0;
+}
+
+
+aside {
+    float: left;
+    background: #800000;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+}
+aside a {
+    color: #edeae5;
+    position: relative;
+    text-decoration: none;
+    font-size: 3vh;
+    top: 2vh;
+    text-align:left;
+    }
+
+aside p {
+    font-weight: bold;
+    color: #edeae5;
+    cursor: default;
+    font-size: 5.5vh;
+    margin-left: -7%;
+}
+
+aside ul li {
+    font-weight: bold;
+    margin-left: -20%;
+    color: #fffff;
+    display: block;
+    margin-top: 2.5vh;
+    transition: transform .5s ease;
+}
+aside ul li:hover, aside ul a:hover {
+    transform: scale(1.04);
+    color: white;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    cursor: default;
+    color: #800000;
+    text-align: center;
+    margin:0;
+    font-size:7vh;
+    font-weight: bold;
+    top: -5vh;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .features {
+margin-top: 4.2vh;
+float:left;
+width: 80%;
+text-align: center;
+}
+
+main .features button {
+padding: 7px 30px;
+background: #800000;
+font-size: 2vh;
+color: white;
+margin-right: 2%;
+border-radius: 5px;
+border: 0;
+font-weight: bold;
+}
+
+main button:hover {
+    transform: scale(1.02);
+    transition: transform .4s ease;
+}
+
+main ul {
+margin-top:3vh;
+float:left;
+margin-left: 6%;
+list-style-type: none;
+}
+
+main a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3vh;
+    top:15px;
+    text-align: left;
+    color: #4056a1;
+}
+main ul li {
+margin-top:1vh;
+}
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 75vh;
+}
