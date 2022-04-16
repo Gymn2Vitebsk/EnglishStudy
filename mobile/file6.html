@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>English Study</title>
+    <link rel = "stylesheet" href = "https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel = "stylesheet" href= "mainmobile.css">
+    <link rel="shortcut icon" href="logo.png" type="image/png">
+    <meta charset="utf-8">
+</head>
+<body>
+<script>
+    function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+
+            var dropdowns = document.getElementsByClassName("dropdown-content");
+            var i;
+            for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Навигация</button>
+  <div id="myDropdown" class="dropdown-content">
+      <a href="index.html">На главную</a>
+      <a href="file1.html">Паспорт кабинета</a>
+      <a href="file2.html">Документация</a>
+      <a href="file3.html">Дидактический материал</a>
+      <a href="file4.html">Олимпиады</a>
+      <a href="file5.html">Элективные курсы</a>
+      <a href="file6.html">В помощь учителю</a>
+      <a href="file7.html">Галерея</a>
+  </div>
+</div>
+<header>
+    <p>В помощь учителю</p>
+</header>
+<main>
+    <ul>
+   		    <a href="https://drive.google.com/drive/folders/1U-OrcLM3Fe4SylvJ-v_JIpvyskun3aFv?usp=sharing"><li> Творческие работы учащихся </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1UoBAHyyGdKMw8zr8h_JoYB2oKOah2ved?usp=sharing"><li> Современные образовательные технологии </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1JUv1H7Io0us9glWkwTs_n6yZTCXH31sE?usp=sharing"><li> Самообразовательная деятельность </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1tbTv41Ftan2z93yHwdOwRugPhREI8DdF?usp=sharing"><li> Распространение педагогического опыта </li> </a>
+    		<a href="https://drive.google.com/drive/folders/11YviYr9ZSxMkB-sFlt4ERG2bwHN15975?usp=sharing"><li> Портфолио кафедры </li> </a>
+    		<a href="https://drive.google.com/drive/folders/126eFb8LE4B7d6tylZsRslpY899GAgJId?usp=sharing"><li> Исследовательская деятельность </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1laq0sm73s01AhFzjYaaqNnGTA-fCrjit?usp=sharing"><li> Дистанционное обучение </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1HNtjlvELEwrTBAbm9tL-8sPq9WJCLwEw?usp=sharing"><li> Готовимся к экзамену и ЦТ </li> </a>
+    		<a href="https://drive.google.com/drive/folders/1UeY9S6RBHSOV5n6i_WnmspyvMZhgTWzY?usp=sharing"><li> Внеклассная работа </li> </a>
+	</ul>
+    <div class="features">
+    		<a href = "file5.html"><button>На предыдущую</button></a>
+    		<a href = "file7.html"><button>На следующую</button></a>
+	</div>
+</main>
+</body>
+</html>
