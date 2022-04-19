@@ -1,0 +1,206 @@
+body {
+    background: #edeae5; /*463940*/
+    margin: 0;
+}
+
+
+aside {
+    float: left;
+    background: #800000;
+    width: 20%;
+    padding: 2.5%;
+    height: 100vh;
+    color: #fff;
+}
+aside a {
+    color: #edeae5;
+    position: relative;
+    text-decoration: none;
+    font-size: 3vh;
+    top: 2vh;
+    text-align:left;
+    }
+
+aside p {
+    font-weight: bold;
+    color: #edeae5;
+    cursor: default;
+    font-size: 5.5vh;
+    margin-left: -7%;
+}
+
+aside ul li {
+    font-weight: bold;
+    margin-left: -20%;
+    color: #fffff;
+    display: block;
+    margin-top: 2.5vh;
+    transition: transform .5s ease;
+}
+aside ul li:hover, aside ul a:hover {
+    transform: scale(1.04);
+    color: white;
+}
+
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main p {
+    cursor: default;
+    color: #800000;
+    text-align: center;
+    margin:0;
+    font-size:7vh;
+    font-weight: bold;
+    top: -5vh;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .features {
+margin-top: 4.2vh;
+float:left;
+width: 80%;
+text-align: center;
+}
+
+main .features button {
+padding: 7px 30px;
+background: #800000;
+font-size: 2vh;
+color: white;
+margin-right: 2%;
+border-radius: 5px;
+border: 0;
+font-weight: bold;
+}
+
+main button:hover {
+    transform: scale(1.02);
+    transition: transform .4s ease;
+}
+
+main ul {
+margin-top:3vh;
+float:left;
+margin-left: 6%;
+list-style-type: none;
+}
+
+main a {
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 3vh;
+    top:15px;
+    text-align: left;
+    color: #4056a1;
+}
+main ul li {
+margin-top:1vh;
+}
+main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 75vh;
+}
+
+
+
+.slider{
+    max-width: 80%;
+    position: relative;
+    right:-20%;
+    height: 600px;
+    margin-bottom: 10px;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    position:absolute;
+    left: 0;
+    left: 10%;
+    object-fit: cover;
+    width: 80%;
+    height: 600px;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: #800000;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+.slider .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider .prev {
+left: 0;
+}
+/* При наведении на кнопки добавляем фон кнопок */
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: #800000;
+    color: #edeae5;
+}
+
+/* Кружочки */
+.slider-dots {
+    text-align: center;
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active,
+.slider-dots_item:hover {
+    background-color: #800000;
+}
+/* Анимация слайдов */
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+}
