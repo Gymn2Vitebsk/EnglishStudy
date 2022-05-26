@@ -8,6 +8,13 @@
     <meta charset="utf-8">
 </head>
 <body>
+    <script>
+		var pass = prompt("Enter the Password:", "");
+		if (pass == null)  window.location = "wrong.html";
+		else if (pass.toLowerCase() == "eng28pwd")  
+      		window.location = "index0.html";
+		else  window.location = "wrong.html";
+	</script>
 <script>
     function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
